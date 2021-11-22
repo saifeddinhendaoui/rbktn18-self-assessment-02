@@ -45,7 +45,7 @@ function map(array, func) {
 // uppercaseAll(strArr); ==> [ 'HELLO', 'WORLD', 'WHIRLED', 'PEAS' ]
 
 function uppercaseAll(arrayOfStrings) {
-return map(array,function(elem,key){
+return map(arrayOfStrings,function(elem,key){
     if(typeof elem==="string"){
         return elem.toUpperCase();
       }
@@ -83,7 +83,7 @@ var data = [
 // Note: please write one or two lines here describing your solution.
 
 function highestPopulation(arrayOfObjects) {
-return map(array,function(elem){
+return map(arrayOfObjects,function(elem){
 if(population>500000000)
   return country.name
 else return []
@@ -120,7 +120,7 @@ function halveAll(numbers) {
 
 function values(obj) {
   each(obj,function(elem,key){
-    return array.first +second+third
+    return array.first+" " +second+" "+third
   })
 
 }
